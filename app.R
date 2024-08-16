@@ -25,6 +25,22 @@ server <- function(input, output) {
                 Study_ID = colDef(
                   align = "center",
                   name = "Study ID",
+                  cell = function(value, index) {
+                    label1 <- DOITable[index, "Study_ID"] 
+                    # had to create a separate file for the DOIs to 
+                    # be read because I kept failing to get them using Table 3
+                    DOI <- DOITable[index, "DOI"]
+                    htmltools::div(
+                      htmltools::p(
+                        htmltools::tags$a(href = DOI,
+                                          target = "_blank",
+                                          label1)
+                      ),
+                    )
+                  }
+                ),
+                DOI = colDef(
+                  show = FALSE
                 ),
                 "First Author" = colDef(
                   align = "left"
