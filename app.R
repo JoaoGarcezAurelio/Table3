@@ -1,0 +1,100 @@
+source("data_cleaning.R")
+
+thematic_shiny()
+
+ui <- page_fluid(
+  theme = bs_theme(preset = "minty"),
+  headerPanel("Table 3 - Characteristics of included studies"),
+  reactableOutput("table3"),
+  textInput("footnote", "Note. RCT: Randomised controlled trial. QE: Quasi-experimental. NE: Non-experimental. Nr: Not reported. SEM: Structural equation modelling.",
+            width = "100%")
+)
+
+
+server <- function(input, output) {
+  output$table3 <- renderReactable({
+    reactable(Table3,
+              theme = default(centered = TRUE),
+              filterable = TRUE,
+              bordered = FALSE,
+              striped = FALSE,
+              highlight = TRUE,
+              searchable = TRUE,
+              defaultPageSize = 16,
+              columns = list(
+                Study_ID = colDef(
+                  align = "center",
+                  name = "Study ID",
+                ),
+                "First Author" = colDef(
+                  align = "left"
+                ),
+                Year = colDef(
+                  align = "center"
+                ),
+                Country = colDef(
+                ),
+                Design = colDef(
+                  align = "center"
+                ),
+                "Student Sample Size" = colDef(
+                  align = "center",
+                  minWidth = 160,
+                  cell = data_bars(Table3,
+                                   text_position = "outside-end",
+                                   round_edges = TRUE,
+                                   box_shadow = TRUE,
+                                   bar_height = 15)
+                ),
+                "Mean Age (years)" = colDef(
+                  na = "–",
+                  align = "center",
+                  minWidth = 90,
+                  cell = data_bars(Table3,
+                                   text_position = "center",
+                                   round_edges = TRUE,
+                                   box_shadow = TRUE,
+                                   bar_height = 15)
+                ),
+                "Age Range (years)" = colDef(
+                  na = "–",
+                  align = "center",
+                  minWidth = 90
+                ),
+                Programme = colDef(
+                  align = "left",
+                  minWidth = 220),
+                "Implementation Dimensions" = colDef(
+                  name = "Implementation Dimensions (IDs)",
+                  align = "left",
+                  minWidth = 250),
+                "Length of Intervention Period (months)" = colDef(
+                  align = "center",
+                  cell = data_bars(Table3,
+                                   text_position = "center",
+                                   round_edges = TRUE,
+                                   box_shadow = TRUE,
+                                   bar_height = 15)
+                ),
+                "Number of Implementation Dimensions" = colDef(
+                  align = "center",
+                  minWidth = 125,
+                  cell = data_bars(Table3,
+                                   text_position = "center",
+                                   round_edges = TRUE,
+                                   box_shadow = TRUE,
+                                   bar_height = 15)
+                ),
+                "Statistical Test" = colDef(
+                  align = "left",
+                  minWidth = 120
+                )
+              )
+    )
+  })
+  
+}
+
+
+# Run the application 
+shinyApp(ui = ui, server = server)
