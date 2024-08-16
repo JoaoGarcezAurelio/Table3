@@ -1,32 +1,32 @@
-﻿Study_ID,DOI,First Author,Year,Country,Design,Student Sample Size,Mean Age (years),Age Range (years),Programme,Length of Intervention Period (months),Implementation Dimensions,Number of Implementation Dimensions,Statistical Test
-1,https://doi.org/10.1007/s12310-022-09538-x.html,Al-Jbouri,2023,Canada,RCT,271,,[4-14],The Faith and Wellness Resource,3,Dosage,1,Regression
-2,https://doi.org/10.1007/s12310-015-9160-1,Berry,2016,England,RCT,5074,,[4-6],PATHS,24,Composite Implementation ,1,Regression
-3,https://doi.org/10.1093/her/cyu047,Clarke,2014,Ireland,RCT,730,7.25,,Zippy's Friends,12,Fidelity,1,SEM
-4,https://doi.org/10.1037//0022-006x.67.5.648,CPPRG,1999,USA,RCT,7560,,,Fast Track: PATHS,12,"Dosage , Quality",2,ANCOVA
-5,http://dx.doi.org/10.1037/spq0000233,Cook,2018,USA,RCT,7419,6.2,,Second Step,12,"Dosage, Fidelity, Responsiveness",3,Regression
-6,,Faria,2012,USA,NE,1613,,,PATHS,24,"Dosage, Composite Implementation",2,Regression
-7,https://doi.org/10.3389/fpsyg.2023.1065749,Gomez,2023,USA,RCT,5080,8.8,,4Rs + MTP ,12,Composite Implementation,1,Regression
-8,http://dx.doi.org/10.1016/j.jsp.2014.07.001,Haataja,2014,Finland,RCT,7413,,[7-12],KiVa,12,"Fidelity, Quality",2,SEM
-9,https://doi.org/10.1007/s10212-019-00452-6,Hennessey,2020,England,RCT,3336,10.7,,PATHS,24,Composite Implementation,1,Regression
-10,https://doi.org/10.1080/02796015.2007.12087949,Hirschstein,2007,USA,RCT,549,,,Steps to Respect,6,"Fidelity, Quality",2,Regression
-11,https://doi.org/10.1186/isrctn85087674,Humphrey,2015,England,RCT,3336,,[7-9],PATHS,24,"Fidelity, Dosage, Quality, Reach, Responsiveness",5,Regression
-12,https://doi.org/10.1007/s11121-017-0802-4,Humphrey,2018,England,RCT,1721,7.58,,PATHS,12,"Fidelity, Dosage, Reach, Quality-Responsiveness",5,Regression
-13,,Kam,2003,USA,QE,164,,,PATHS,4,Quality,1,ANCOVA
-14,https://doi.org/10.1037/e734362011-100,Kam,2011,Hong Kong,NE,316,,,PATHS,4,Composite Implementation,1,Regression
-15,https://doi.org/10.1186/s40359-016-0133-4,Kiviruusu,2016,Finland,RCT,3704,8.1,,Together at School,12,Dosage ,1,Regression
-16,https://doi.org/10.1002/ajcp.12092,Leadbeater,2016,Canada,RCT,1329,8.2,,WITS Programs,12,"Fidelity, Quality, Responsiveness",3,SEM
-17,https://doi.org/10.1007/s11121-018-0948-8,Leadbeater,2018,Canada,RCT,1967,8.2,,WITS Programs,24,"Fidelity, Quality, Responsiveness",3,SEM
-18,https://doi.org/10.1007/s11121-012-0359-1,Low,2014,USA,RCT,1424,8.9,,Steps to Respect,12,Fidelity,2,Regression
-19,https://doi.org/10.1080/14635240.2018.1431952,Lynch,2018,England,RCT,2338,10.3,,In:tuition,12,Dosage,1,Regression
-20,,Mauk,2010,USA,NE,79,,,PATHS,12,Index,1,ANOVA
-21,,Mokrue,2005,USA,NE,655,7.91,,Talking with TJ,4,Dosage ,1,CACE
-22,http://dx.doi.org/10.1037/edu0000360,Panayiotou,2020,England,RCT,5218,8.12,,PATHS,24,Dosage,1,CACE
-23,https://doi.org/10.1080/02796015.2012.12087377,Reyes,2012,USA,RCT,812,,,RULER,12,"Dosage, Quality, Composite Implementation",3,Regression
-24,https://doi.org/10.1007/s10935-008-0153-9,Rosenblatt,2008,USA,NE,145,11.04,,Talking with TJ,12,Dosage,1,ANCOVA
-25,https://doi.org/10.1086/699153,Shapiro,2018,USA,NE,3629,,,PATHS,12,Composite Implementation,1,Regression
-26,https://doi.org/10.2196/12003,Shum,2019,Hong Kong,QE,459,9.5,,The Adventures of DoReMiFa ,12,Dosage,1,Regression
-27,http://dx.doi.org/10.1016/j.jsp.2017.07.005,Swift,2017,USA,NE,1409,10.1,,KiVa,12,Dosage,1,SEM
-28,https://doi.org/10.3389/fpsyg.2022.973184,Wu,2023,Sierra Leone,NE,1414,,,Learn Safe in Bo ,12,Dosage,1,Regression
-29,https://doi.org/10.3310/phr06100,Humphrey,2018,England,RCT,5218,,,PATHS,24,"Fidelity, Dosage, Reach, Quality-Responsiveness",5,Regression
-30,https://doi.org/10.1007/s11121-016-0670-3,Low,2016,USA,RCT,7300,,,Second Step,12,"Dosage, Responsiveness",2,Regression
-31,https://doi.org/10.1016/j.jsp.2015.09.002,Low,2015,USA,RCT,7300,,,Second Step,12,"Dosage, Responsiveness",2,Regression
+﻿Study_ID,DOI,First Author,Year,Country,CountryFlag,Design,Student Sample Size,Mean Age (years),Age Range (years),Programme,Length of Intervention Period (months),Implementation Dimensions,Number of Implementation Dimensions,Statistical Test
+1,https://doi.org/10.1007/s12310-022-09538-x.html,Al-Jbouri,2023,Canada,https://upload.wikimedia.org/wikipedia/commons/archive/d/d9/20210109031434%21Flag_of_Canada_%28Pantone%29.svg,RCT,271,,[4-14],The Faith and Wellness Resource,3,Dosage,1,Regression
+2,https://doi.org/10.1007/s12310-015-9160-1,Berry,2016,England,https://upload.wikimedia.org/wikipedia/commons/archive/d/d9/20210109031434%21Flag_of_Canada_%28Pantone%29.svg,RCT,5074,,[4-6],PATHS,24,Composite Implementation ,1,Regression
+3,https://doi.org/10.1093/her/cyu047,Clarke,2014,Ireland,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Ireland_%283-2%29.svg/640px-Flag_of_Ireland_%283-2%29.svg.png,RCT,730,7.25,,Zippy's Friends,12,Fidelity,1,SEM
+4,https://doi.org/10.1037//0022-006x.67.5.648,CPPRG,1999,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,RCT,7560,,,Fast Track: PATHS,12,"Dosage , Quality",2,ANCOVA
+5,http://dx.doi.org/10.1037/spq0000233,Cook,2018,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,RCT,7419,6.2,,Second Step,12,"Dosage, Fidelity, Responsiveness",3,Regression
+6,,Faria,2012,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,NE,1613,,,PATHS,24,"Dosage, Composite Implementation",2,Regression
+7,https://doi.org/10.3389/fpsyg.2023.1065749,Gomez,2023,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,RCT,5080,8.8,,4Rs + MTP ,12,Composite Implementation,1,Regression
+8,http://dx.doi.org/10.1016/j.jsp.2014.07.001,Haataja,2014,Finland,https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Finland.png,RCT,7413,,[7-12],KiVa,12,"Fidelity, Quality",2,SEM
+9,https://doi.org/10.1007/s10212-019-00452-6,Hennessey,2020,England,https://upload.wikimedia.org/wikipedia/commons/e/ef/England_flag.png,RCT,3336,10.7,,PATHS,24,Composite Implementation,1,Regression
+10,https://doi.org/10.1080/02796015.2007.12087949,Hirschstein,2007,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,RCT,549,,,Steps to Respect,6,"Fidelity, Quality",2,Regression
+11,https://doi.org/10.1186/isrctn85087674,Humphrey,2015,England,https://upload.wikimedia.org/wikipedia/commons/e/ef/England_flag.png,RCT,3336,,[7-9],PATHS,24,"Fidelity, Dosage, Quality, Reach, Responsiveness",5,Regression
+12,https://doi.org/10.1007/s11121-017-0802-4,Humphrey,2018,England,https://upload.wikimedia.org/wikipedia/commons/e/ef/England_flag.png,RCT,1721,7.58,,PATHS,12,"Fidelity, Dosage, Reach, Quality-Responsiveness",5,Regression
+13,,Kam,2003,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,QE,164,,,PATHS,4,Quality,1,ANCOVA
+14,https://doi.org/10.1037/e734362011-100,Kam,2011,Hong Kong,https://cdn.britannica.com/43/82343-004-93844DE8/Flag-Hong-Kong-province-China.jpg,NE,316,,,PATHS,4,Composite Implementation,1,Regression
+15,https://doi.org/10.1186/s40359-016-0133-4,Kiviruusu,2016,Finland,https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Finland.png,RCT,3704,8.1,,Together at School,12,Dosage ,1,Regression
+16,https://doi.org/10.1002/ajcp.12092,Leadbeater,2016,Canada,https://upload.wikimedia.org/wikipedia/commons/archive/d/d9/20210109031434%21Flag_of_Canada_%28Pantone%29.svg,RCT,1329,8.2,,WITS Programs,12,"Fidelity, Quality, Responsiveness",3,SEM
+17,https://doi.org/10.1007/s11121-018-0948-8,Leadbeater,2018,Canada,https://upload.wikimedia.org/wikipedia/commons/archive/d/d9/20210109031434%21Flag_of_Canada_%28Pantone%29.svg,RCT,1967,8.2,,WITS Programs,24,"Fidelity, Quality, Responsiveness",3,SEM
+18,https://doi.org/10.1007/s11121-012-0359-1,Low,2014,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,RCT,1424,8.9,,Steps to Respect,12,Fidelity,2,Regression
+19,https://doi.org/10.1080/14635240.2018.1431952,Lynch,2018,England,https://upload.wikimedia.org/wikipedia/commons/e/ef/England_flag.png,RCT,2338,10.3,,In:tuition,12,Dosage,1,Regression
+20,,Mauk,2010,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,NE,79,,,PATHS,12,Index,1,ANOVA
+21,,Mokrue,2005,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,NE,655,7.91,,Talking with TJ,4,Dosage ,1,CACE
+22,http://dx.doi.org/10.1037/edu0000360,Panayiotou,2020,England,https://upload.wikimedia.org/wikipedia/commons/e/ef/England_flag.png,RCT,5218,8.12,,PATHS,24,Dosage,1,CACE
+23,https://doi.org/10.1080/02796015.2012.12087377,Reyes,2012,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,RCT,812,,,RULER,12,"Dosage, Quality, Composite Implementation",3,Regression
+24,https://doi.org/10.1007/s10935-008-0153-9,Rosenblatt,2008,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,NE,145,11.04,,Talking with TJ,12,Dosage,1,ANCOVA
+25,https://doi.org/10.1086/699153,Shapiro,2018,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,NE,3629,,,PATHS,12,Composite Implementation,1,Regression
+26,https://doi.org/10.2196/12003,Shum,2019,Hong Kong,https://cdn.britannica.com/43/82343-004-93844DE8/Flag-Hong-Kong-province-China.jpg,QE,459,9.5,,The Adventures of DoReMiFa ,12,Dosage,1,Regression
+27,http://dx.doi.org/10.1016/j.jsp.2017.07.005,Swift,2017,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,NE,1409,10.1,,KiVa,12,Dosage,1,SEM
+28,https://doi.org/10.3389/fpsyg.2022.973184,Wu,2023,Sierra Leone,https://cdn.britannica.com/72/5072-050-823E3632/Flag-Sierra-Leone.jpg,NE,1414,,,Learn Safe in Bo ,12,Dosage,1,Regression
+29,https://doi.org/10.3310/phr06100,Humphrey,2018,England,https://upload.wikimedia.org/wikipedia/commons/e/ef/England_flag.png,RCT,5218,,,PATHS,24,"Fidelity, Dosage, Reach, Quality-Responsiveness",5,Regression
+30,https://doi.org/10.1007/s11121-016-0670-3,Low,2016,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,RCT,7300,,,Second Step,12,"Dosage, Responsiveness",2,Regression
+31,https://doi.org/10.1016/j.jsp.2015.09.002,Low,2015,USA,https://upload.wikimedia.org/wikipedia/commons/d/de/Flag_of_the_United_States.png,RCT,7300,,,Second Step,12,"Dosage, Responsiveness",2,Regression
