@@ -47,6 +47,8 @@ server <- function(input, output) {
                                    bar_height = 15)
                 ),
                 "Mean Age (years)" = colDef(
+                  header = with_tooltip("Mean Age", 
+                                        "Mean age in years"),
                   na = "–",
                   align = "center",
                   minWidth = 90,
@@ -57,11 +59,15 @@ server <- function(input, output) {
                                    bar_height = 15)
                 ),
                 "Age Range (years)" = colDef(
+                  header = with_tooltip("Age Range", 
+                                        "Age range in years"),
                   na = "–",
                   align = "center",
                   minWidth = 90
                 ),
                 Programme = colDef(
+                  header = with_tooltip("Programme", 
+                                        "Programme being delivered"),
                   align = "left",
                   minWidth = 220),
                 "Implementation Dimensions" = colDef(
@@ -69,6 +75,8 @@ server <- function(input, output) {
                   align = "left",
                   minWidth = 250),
                 "Length of Intervention Period (months)" = colDef(
+                  header = with_tooltip("Duration", 
+                                        "Length of intervention period in years"),
                   align = "center",
                   cell = data_bars(Table3,
                                    text_position = "center",
@@ -77,6 +85,8 @@ server <- function(input, output) {
                                    bar_height = 15)
                 ),
                 "Number of Implementation Dimensions" = colDef(
+                  header = with_tooltip("Number of IDs", 
+                                        "Number of Implementation Dimensions"),
                   align = "center",
                   minWidth = 125,
                   cell = data_bars(Table3,
