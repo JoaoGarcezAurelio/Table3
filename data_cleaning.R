@@ -22,6 +22,17 @@ library(reactablefmtr)
 library(here)
 library(shinylive)
 
+# Uploading the table
+
 Table3 <- read_csv(here("Data",
                         "Processed Data",
                         "Table3.csv"))
+
+# Creating a tooltip option
+
+# Creating a tooltip option that will be used in the headers.
+
+with_tooltip <- function(value, tooltip) {
+  tags$abbr(style = "text-decoration: underline; text-decoration-style: dotted; cursor: help",
+            title = tooltip, value)
+}
