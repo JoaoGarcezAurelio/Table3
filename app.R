@@ -50,6 +50,13 @@ server <- function(input, output) {
                 ),
                 Country = colDef(
                 ),
+                CountryFlag = colDef(
+                  name = "",
+                  maxWidth = 70,
+                  align = "center",
+                  cell = embed_img("Country",
+                                   height = "25",
+                                   width = "40")),
                 Design = colDef(
                   align = "center"
                 ),
