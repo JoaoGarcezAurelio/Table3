@@ -10,8 +10,8 @@
 # install.packages("here") # For file management
 # install.packages("shinylive") # For github optimisation
 # install.packages("htmltools") For the DOI links
-# install.packages("magrittr") For the pipe
-# install.packages("dplyr") # For the mutate functions (avoided tidyverse in case it makes it more difficult for shinyserver)
+# install.packages("magrittr") For the pipe (avoided tidyverse in case it makes it more difficult for shinyserver)
+# install.packages("dplyr") # For the mutate functions 
 
 # Loading the packages
 
