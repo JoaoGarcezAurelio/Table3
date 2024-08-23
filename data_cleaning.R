@@ -10,6 +10,8 @@
 # install.packages("here") # For file management
 # install.packages("shinylive") # For github optimisation
 # install.packages("htmltools") For the DOI links
+# install.packages("magrittr") For the pipe
+# install.packages("dplyr") # For the mutate functions (avoided tidyverse in case it makes it more difficult for shinyserver)
 
 # Loading the packages
 
@@ -23,6 +25,9 @@ library(reactablefmtr)
 library(here)
 library(shinylive)
 library(htmltools)
+library(magrittr)
+library(dplyr)
+
 
 # Uploading the table
 
@@ -79,3 +84,21 @@ DOITable <- data.frame(
           "https://doi.org/10.3310/phr06100",
           "https://doi.org/10.1007/s11121-016-0670-3",
           "https://doi.org/10.1016/j.jsp.2015.09.002"))
+
+
+# Setting up the details for table 4:
+
+
+Table4 <- 
+  read_csv(here("Data",
+                "Processed Data",
+                "Table4.csv"))
+
+# Now I create the colour code I want the classification variable to have:
+
+Table4 <- Table4 %>%
+  mutate(
+    Classification_colours = case_when(Classification == "High" ~ "darkgreen",
+                                       Classification == "Low" ~ "red",
+                                       TRUE ~ "orange")
+  )
