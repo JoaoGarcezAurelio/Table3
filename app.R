@@ -4,6 +4,7 @@ thematic_shiny()
 
 ui <- page_fluid(
   theme = bs_theme(preset = "minty"),
+  
   headerPanel("Table 3 - Characteristics of included studies"),
   reactableOutput("table3"),
   textInput("footnote", "Note. RCT: Randomised controlled trial. QE: Quasi-experimental. NE: Non-experimental. Nr: Not reported. SEM: Structural equation modelling.",
