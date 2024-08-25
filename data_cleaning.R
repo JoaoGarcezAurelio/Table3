@@ -86,19 +86,4 @@ DOITable <- data.frame(
           "https://doi.org/10.1016/j.jsp.2015.09.002"))
 
 
-# Setting up the details for table 4:
 
-
-Table4 <- 
-  read_csv(here("Data",
-                "Processed Data",
-                "Table4.csv"))
-
-# Now I create the colour code I want the classification variable to have:
-
-Table4 <- Table4 %>%
-  mutate(
-    Classification_colours = case_when(Classification == "High" ~ "darkgreen",
-                                       Classification == "Low" ~ "red",
-                                       TRUE ~ "orange")
-  )
